@@ -85,14 +85,6 @@
 		845855EE2348E7B600D2E8AF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				845855F32348E7FA00D2E8AF /* Models */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		845855F32348E7FA00D2E8AF /* Models */ = {
-			isa = PBXGroup;
-			children = (
 				845855F42348E81F00D2E8AF /* HeroView.swift */,
 				845855EF2348E7CB00D2E8AF /* HeroImage.swift */,
 				845855F12348E7DD00D2E8AF /* Hero.swift */,

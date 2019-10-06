@@ -14,8 +14,9 @@ struct HeroView: View {
     var body: some View {
         NavigationView {
         List(heroes) { hero in
-            ExtractedView()
-            }
+            HeroCell(hero : hero)
+            
+        }
         .navigationBarTitle(Text("Heroes"))
         }
     }
@@ -23,13 +24,14 @@ struct HeroView: View {
 
 struct HeroView_Previews: PreviewProvider {
     static var previews: some View {
-            ContentView(heroes: testData[0])
+        HeroView(heroes: testData)
         }
     }
 
-struct ExtractedView: View {
+struct HeroCell: View {
+    let hero : Hero
     var body: some View {
-        NavigationLink(destination: HeroImage(hero : hero)) {
+        NavigationLink(destination: HeroImage(hero: hero)) {
             Image(hero.imageName)
                 .resizable()
                 .frame(width: 50, height: 50)

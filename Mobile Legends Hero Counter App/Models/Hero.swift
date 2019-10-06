@@ -20,6 +20,7 @@ struct Hero: Identifiable {
     }
 
 let testData = [
+    
     Hero(name: "Chou", type: "Figher"),
     Hero(name: "Alucard", type: "Fighter/Assasin"),
     Hero(name: "Balmond", type: "Fighter"),
