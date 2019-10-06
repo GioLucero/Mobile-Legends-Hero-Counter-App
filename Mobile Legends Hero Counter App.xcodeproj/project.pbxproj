@@ -13,6 +13,9 @@
 		845855E12348E79700D2E8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845855E02348E79700D2E8AF /* Assets.xcassets */; };
 		845855E42348E79700D2E8AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845855E32348E79700D2E8AF /* Preview Assets.xcassets */; };
 		845855E72348E79700D2E8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845855E52348E79700D2E8AF /* LaunchScreen.storyboard */; };
+		845855F02348E7CB00D2E8AF /* HeroImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845855EF2348E7CB00D2E8AF /* HeroImage.swift */; };
+		845855F22348E7DD00D2E8AF /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845855F12348E7DD00D2E8AF /* Hero.swift */; };
+		845855F52348E81F00D2E8AF /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845855F42348E81F00D2E8AF /* HeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		845855E32348E79700D2E8AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		845855E62348E79700D2E8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845855E82348E79700D2E8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845855EF2348E7CB00D2E8AF /* HeroImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroImage.swift; sourceTree = "<group>"; };
+		845855F12348E7DD00D2E8AF /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		845855F42348E81F00D2E8AF /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		845855D92348E79500D2E8AF /* Mobile Legends Hero Counter App */ = {
 			isa = PBXGroup;
 			children = (
+				845855EE2348E7B600D2E8AF /* Models */,
 				845855DA2348E79500D2E8AF /* AppDelegate.swift */,
 				845855DC2348E79500D2E8AF /* SceneDelegate.swift */,
 				845855DE2348E79500D2E8AF /* ContentView.swift */,
@@ -73,6 +80,24 @@
 				845855E32348E79700D2E8AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		845855EE2348E7B600D2E8AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				845855F32348E7FA00D2E8AF /* Models */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		845855F32348E7FA00D2E8AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				845855F42348E81F00D2E8AF /* HeroView.swift */,
+				845855EF2348E7CB00D2E8AF /* HeroImage.swift */,
+				845855F12348E7DD00D2E8AF /* Hero.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845855F22348E7DD00D2E8AF /* Hero.swift in Sources */,
 				845855DB2348E79500D2E8AF /* AppDelegate.swift in Sources */,
+				845855F52348E81F00D2E8AF /* HeroView.swift in Sources */,
 				845855DD2348E79500D2E8AF /* SceneDelegate.swift in Sources */,
 				845855DF2348E79500D2E8AF /* ContentView.swift in Sources */,
+				845855F02348E7CB00D2E8AF /* HeroImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
