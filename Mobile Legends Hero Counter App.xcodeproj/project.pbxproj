@@ -16,6 +16,7 @@
 		845855F02348E7CB00D2E8AF /* HeroImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845855EF2348E7CB00D2E8AF /* HeroImage.swift */; };
 		845855F22348E7DD00D2E8AF /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845855F12348E7DD00D2E8AF /* Hero.swift */; };
 		845855F52348E81F00D2E8AF /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845855F42348E81F00D2E8AF /* HeroView.swift */; };
+		845855F7234BAF3600D2E8AF /* CountersRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845855F6234BAF3600D2E8AF /* CountersRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		845855EF2348E7CB00D2E8AF /* HeroImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroImage.swift; sourceTree = "<group>"; };
 		845855F12348E7DD00D2E8AF /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		845855F42348E81F00D2E8AF /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		845855F6234BAF3600D2E8AF /* CountersRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountersRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				845855F42348E81F00D2E8AF /* HeroView.swift */,
 				845855EF2348E7CB00D2E8AF /* HeroImage.swift */,
 				845855F12348E7DD00D2E8AF /* Hero.swift */,
+				845855F6234BAF3600D2E8AF /* CountersRow.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				845855F22348E7DD00D2E8AF /* Hero.swift in Sources */,
 				845855DB2348E79500D2E8AF /* AppDelegate.swift in Sources */,
 				845855F52348E81F00D2E8AF /* HeroView.swift in Sources */,
+				845855F7234BAF3600D2E8AF /* CountersRow.swift in Sources */,
 				845855DD2348E79500D2E8AF /* SceneDelegate.swift in Sources */,
 				845855DF2348E79500D2E8AF /* ContentView.swift in Sources */,
 				845855F02348E7CB00D2E8AF /* HeroImage.swift in Sources */,
