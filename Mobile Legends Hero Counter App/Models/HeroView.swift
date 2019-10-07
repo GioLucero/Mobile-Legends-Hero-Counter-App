@@ -10,6 +10,7 @@ import SwiftUI
 
 struct HeroView: View {
     var heroes : [Hero] = []
+    let names = ["Chou", "Alucard", "Balmond", "Hilda", "Zilong"]
     
     var body: some View {
         NavigationView {
@@ -32,6 +33,9 @@ struct HeroCell: View {
     let hero : Hero
     var body: some View {
         NavigationLink(destination: HeroImage(hero: hero)) {
+//            ForEach(self.names, id: \.self)
+            
+            
             Image(hero.imageName)
                 .resizable()
                 .frame(width: 50, height: 50)
@@ -42,6 +46,9 @@ struct HeroCell: View {
                 Text(hero.type)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
+                
+                
+                
             }
         }
     }

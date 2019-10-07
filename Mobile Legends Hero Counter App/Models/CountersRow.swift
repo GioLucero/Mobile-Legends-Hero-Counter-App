@@ -22,7 +22,6 @@ struct CountersRow: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 90, height: 180)
-                    .border(Color.white, width: 5)
                     .cornerRadius(10)
                     .shadow(radius: 10)
 
@@ -30,7 +29,6 @@ struct CountersRow: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 90, height: 180)
-                    .border(Color.white, width: 5)
                     .cornerRadius(10)
                     .shadow(radius: 10)
                 
@@ -38,7 +36,6 @@ struct CountersRow: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 90, height: 180)
-                    .border(Color.white, width: 5)
                     .cornerRadius(10)
                     .shadow(radius: 10)
                             
@@ -46,7 +43,6 @@ struct CountersRow: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 90, height: 180)
-                    .border(Color.white, width: 5)
                     .cornerRadius(10)
                     .shadow(radius: 10)
 
@@ -63,6 +59,6 @@ struct CountersRow: View {
 
 struct CountersRow_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView { CountersRow(hero : testData[0]) }
+        NavigationView { CountersRow(hero : testData[1]) }
     }
 }
