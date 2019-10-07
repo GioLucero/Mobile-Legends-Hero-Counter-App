@@ -21,10 +21,33 @@ struct Hero: Identifiable {
 
 let testData = [
     
-    Hero(name: "Chou", type: "Figher"),
     Hero(name: "Alucard", type: "Fighter/Assasin"),
+    Hero(name: "Angela", type: "Support"),
     Hero(name: "Balmond", type: "Fighter"),
+    Hero(name: "Chou", type: "Figher"),
+    Hero(name: "Cyclops", type: "Mage"),
+    Hero(name: "Fanny", type: "Assasin"),
     Hero(name: "Hilda", type: "Fighter"),
+    Hero(name: "Layla", type: "Marksman"),
     Hero(name: "Zilong", type: "Fighter/Assasin"),
+    
 ]
 
+
+//struct CounterHero : Identifiable {
+//
+//    var id = UUID()
+//    var name = String
+//
+//    var imageName : String { return name }
+//    var thumbnailName: String { return name + "Thumb" }
+//
+//}
+//
+//
+//
+//let counterData = [
+//
+//    Hero(name: "Angela", type: <#T##String#>)
+//
+//]

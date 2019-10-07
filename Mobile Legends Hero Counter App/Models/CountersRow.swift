@@ -14,7 +14,6 @@ struct CountersRow: View {
     var body: some View {
         // HStack held together by the VStack to align it vertically
         VStack {
-            NavigationLink(destination: HeroImage(hero: hero)) {
             // Set in an HStack to have the images side by side
             HStack {
                 // List of counters heroes
@@ -50,8 +49,9 @@ struct CountersRow: View {
     //                .fill(Color.green)
     //                .frame(width: 410, height: 200)
     //                .offset(x: 0, y: 110))
-                    }
+                
                 }
+                .offset(x: 0, y: 300)
             }
         }
     }
@@ -59,6 +59,6 @@ struct CountersRow: View {
 
 struct CountersRow_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView { CountersRow(hero : testData[1]) }
+       CountersRow(hero : testData[1]) 
     }
 }

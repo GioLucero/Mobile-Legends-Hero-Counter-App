@@ -13,7 +13,6 @@ struct HeroImage: View {
     
     var body: some View {
         VStack {
-            NavigationLink(destination: HeroImage(hero: hero)) {
                    // Set in an HStack to have the images side by side
             HStack {
                        // List of counters heroes
@@ -46,7 +45,7 @@ struct HeroImage: View {
                            .shadow(radius: 10)
                 }
                 .offset(x: 0, y: 300)
-            }
+
             
                 VStack {
                     Image(hero.imageName)
