@@ -10,39 +10,61 @@ import SwiftUI
 
 struct HeroImage: View {
     let hero : Hero
+    let counterHero : CounterHero
     
     var body: some View {
         VStack {
                    // Set in an HStack to have the images side by side
             HStack {
                        // List of counters heroes
-                Image(hero.imageName)
-                           .resizable()
-                           .aspectRatio(contentMode: .fit)
-                           .frame(width: 90, height: 180)
-                           .cornerRadius(10)
-                           .shadow(radius: 10)
+                VStack {
+                    Image(CounterHero.imageName)
+                               .resizable()
+                               .aspectRatio(contentMode: .fit)
+                               .frame(width: 90, height: 180)
+                               .cornerRadius(10)
+                        .shadow(radius: 10)
+                    
+                    Text(hero.imageName)
+                    .font(.subheadline)
+                }
+            
 
-                Image(hero.imageName)
-                           .resizable()
-                           .aspectRatio(contentMode: .fit)
-                           .frame(width: 90, height: 180)
-                           .cornerRadius(10)
-                           .shadow(radius: 10)
+                VStack {
+                    Image("Fanny")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 90, height: 180)
+                        .cornerRadius(10)
+                        .shadow(radius: 10)
+                    
+                    Text(hero.imageName)
+                        .font(.subheadline)
+                }
                        
-                Image(hero.imageName)
-                           .resizable()
-                           .aspectRatio(contentMode: .fit)
-                           .frame(width: 90, height: 180)
-                           .cornerRadius(10)
-                           .shadow(radius: 10)
+                VStack {
+                    Image("Layla")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 90, height: 180)
+                            .cornerRadius(10)
+                            .shadow(radius: 10)
+                   
+                    Text(hero.imageName)
+                    .font(.subheadline)
+                }
                                    
-                Image(hero.imageName)
-                           .resizable()
-                           .aspectRatio(contentMode: .fit)
-                           .frame(width: 90, height: 180)
-                           .cornerRadius(10)
-                           .shadow(radius: 10)
+                VStack {
+                    Image("Cyclops")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 90, height: 180)
+                        .cornerRadius(10)
+                        .shadow(radius: 10)
+                   
+                    Text(hero.imageName)
+                    .font(.subheadline)
+                }
                 }
                 .offset(x: 0, y: 300)
 
@@ -55,12 +77,12 @@ struct HeroImage: View {
                         .border(Color.white, width: 5)
                         .cornerRadius(10)
                         .shadow(radius: 10)
-                        .offset(x: 0, y: -240)
+                        .offset(x: 0, y: -260)
                         .navigationBarTitle(Text(hero.name), displayMode: .inline)
                 
                     Text(hero.imageName)
                         .font(.title)
-                        .offset(x: 0, y: -230)
+                        .offset(x: 0, y: -260)
             }
         }
             
@@ -69,6 +91,10 @@ struct HeroImage: View {
 
 struct HeroImage_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView { HeroImage(hero : testData[0]) }
+        Group {
+            HeroImage(hero : testData[0])
+            HeroImage(counterHero : counterData)
+            
+        }
     }
 }
