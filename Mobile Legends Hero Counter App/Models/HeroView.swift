@@ -10,7 +10,8 @@ import SwiftUI
 
 struct HeroView: View {
     var heroes : [Hero] = []
-    let names = ["Chou", "Alucard", "Balmond", "Hilda", "Zilong"]
+//    let names = ["Chou", "Alucard", "Balmond", "Hilda", "Zilong"]
+//    var counterHeroes: [counterHero] = []
     
     var body: some View {
         NavigationView {

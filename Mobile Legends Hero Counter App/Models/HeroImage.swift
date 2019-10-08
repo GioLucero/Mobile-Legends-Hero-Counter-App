@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HeroImage: View {
     let hero : Hero
-    let counterHero : CounterHero
+//    let counterHero : CounterHero
     
     var body: some View {
         VStack {
@@ -18,7 +18,7 @@ struct HeroImage: View {
             HStack {
                        // List of counters heroes
                 VStack {
-                    Image(CounterHero.imageName)
+                    Image("Angela")
                                .resizable()
                                .aspectRatio(contentMode: .fit)
                                .frame(width: 90, height: 180)
@@ -77,13 +77,16 @@ struct HeroImage: View {
                         .border(Color.white, width: 5)
                         .cornerRadius(10)
                         .shadow(radius: 10)
-                        .offset(x: 0, y: -260)
+                        .offset(x: 0, y: -270)
                         .navigationBarTitle(Text(hero.name), displayMode: .inline)
                 
                     Text(hero.imageName)
-                        .font(.title)
-                        .offset(x: 0, y: -260)
+                        .font(.system(size: 40))
+                        .offset(x: 0, y: -280)
             }
+            Text("Counter Heroes:")
+                .font(.system(size: 25))
+                .offset(x: -105, y: -260)
         }
             
     }
@@ -91,10 +94,7 @@ struct HeroImage: View {
 
 struct HeroImage_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
             HeroImage(hero : testData[0])
-            HeroImage(counterHero : counterData)
-            
-        }
+//            HeroImage(counterHero : counterData[0])
     }
 }

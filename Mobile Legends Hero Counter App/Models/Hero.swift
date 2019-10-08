@@ -33,14 +33,14 @@ let testData = [
     
 ]
 
-let counterData = [
-
-    CounterHero(name: "Angela", number: 1),
-    CounterHero(name: "Fanny", number: 2),
-    CounterHero(name: "Layla", number: 3),
-    CounterHero(name: "Cyclops", number: 4),
-
-]
+//let counterData = [
+//
+//    CounterHero(name: "Angela", number: 1),
+//    CounterHero(name: "Fanny", number: 2),
+//    CounterHero(name: "Layla", number: 3),
+//    CounterHero(name: "Cyclops", number: 4),
+//
+//]
 
 
 
