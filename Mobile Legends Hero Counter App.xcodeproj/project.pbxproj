@@ -36,6 +36,7 @@
 		845855F6234BAF3600D2E8AF /* CountersRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountersRow.swift; sourceTree = "<group>"; };
 		845855F8234BBC3200D2E8AF /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		845855FA234BFF0700D2E8AF /* CounterHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterHero.swift; sourceTree = "<group>"; };
+		847E3AA1234E59E80054BFE2 /* JSON.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSON.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 				845855E02348E79700D2E8AF /* Assets.xcassets */,
 				845855E52348E79700D2E8AF /* LaunchScreen.storyboard */,
 				845855E82348E79700D2E8AF /* Info.plist */,
+				847E3AA0234E59B50054BFE2 /* New Group */,
 				845855E22348E79700D2E8AF /* Preview Content */,
 			);
 			path = "Mobile Legends Hero Counter App";
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				845855E32348E79700D2E8AF /* Preview Assets.xcassets */,
+				847E3AA1234E59E80054BFE2 /* JSON.playground */,
 				845855F8234BBC3200D2E8AF /* SearchBar.swift */,
 			);
 			path = "Preview Content";
@@ -99,6 +102,13 @@
 				845855FA234BFF0700D2E8AF /* CounterHero.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		847E3AA0234E59B50054BFE2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

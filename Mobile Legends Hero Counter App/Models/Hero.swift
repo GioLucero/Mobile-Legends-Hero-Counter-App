@@ -22,13 +22,13 @@ struct Hero: Identifiable {
 let testData = [
     
     Hero(name: "Alucard", type: "Fighter/Assasin"),
-    Hero(name: "Angela", type: "Support"),
+//    Hero(name: "Angela", type: "Support"),
     Hero(name: "Balmond", type: "Fighter"),
     Hero(name: "Chou", type: "Figher"),
-    Hero(name: "Cyclops", type: "Mage"),
-    Hero(name: "Fanny", type: "Assasin"),
+//    Hero(name: "Cyclops", type: "Mage"),
+//    Hero(name: "Fanny", type: "Assasin"),
     Hero(name: "Hilda", type: "Fighter"),
-    Hero(name: "Layla", type: "Marksman"),
+//    Hero(name: "Layla", type: "Marksman"),
     Hero(name: "Zilong", type: "Fighter/Assasin"),
     
 ]
